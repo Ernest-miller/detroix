@@ -1,0 +1,84 @@
+* {box-sizing: border-box;}
+
+
+body { background-color: navy; position: relative; width: 940px; }
+
+header {
+    position: relative;
+    max-width: 100%;
+    left: 600px;
+    top: 5px;
+}
+
+.text {
+    position: absolute;
+    top: 150px;
+    left: -310px;
+    width: 100%;
+    height: 50px;
+    text-transform: uppercase;
+}
+
+h1 span {
+    color: white; 
+    font: bold 24px/45px Helvetica, Sans-Serif; 
+    letter-spacing: -1px;  
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.7);
+    padding: 10px;
+/*-----------------------------------*/
+    position: relative;
+    top: 100px;
+    left: 400px;
+    width: 200px;
+    height: 200px;
+    font-size: 150px;
+}
+
+h3 span {
+    color: white; 
+    font: bold 24px/45px Helvetica, Sans-Serif; 
+    letter-spacing: -1px;  
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.7);
+    padding: 10px;
+/*-----------------------------------*/
+    position: relative;
+    top: 100px;
+    left: 400px;
+    width: 200px;
+    height: 200px;
+    font-size: 40px;
+}
+
+.button {
+    position: relative;
+    top: 200px;
+    left: 45px;
+    border-radius: 10%;
+}
+
+footer {
+    position: relative;
+    top: 575px;
+    left: 600px;
+}
+
+.emoji {
+    position: relative;
+    top: -65px;
+}
+
+.cog {
+    position: relative; 
+    top: 10px; left: 300px; 
+    background-color: navy; 
+    width: 50px;
+}
+
+.chat {
+    position: relative; 
+    top: 10px; left: 300px; 
+    background-color: navy; 
+    width: 50px;
+}
